@@ -1,0 +1,40 @@
+/*Ignora o margin e o padding padrão para todo o cóigo*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  
+  Abaixo mostra o que foi feito acima, de maneira simplificada
+  background: color image repeat position/size*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+/*Define a mesma fonte utilizada em todo o código*/
+body *{
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+#container{
+  width: 360px;
+  margin: 56px auto 0px;
+}
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+/*Cofigurações da imagem do usuário*/
+#profile img {
+  width: 112px;
+}
+/*Configurações do @ do usuário*/
+#profile p{
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
